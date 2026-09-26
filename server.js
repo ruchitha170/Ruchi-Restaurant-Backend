@@ -40,4 +40,5 @@ app.post('/addItem', async(request,response)=>{
     const data = await pool.query(query,[id,foodItemName,cost])
     response.send(data)
 })
+//backend app
 
